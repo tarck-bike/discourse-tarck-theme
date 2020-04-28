@@ -1,5 +1,39 @@
 {
-  "name": "Sam's Simple Theme",
-  "about_url": "https://meta.discourse.org/t/sams-personal-minimal-topic-list-design/23552",
-  "license_url": "https://github.com/SamSaffron/discourse-simple-theme/blob/master/LICENSE.txt"
+  "name": "Tarck®",
+  "component": false,
+  "license_url": "https://github.com/tarck-bike/discourse-tarck-theme/blob/master/LICENSE.txt",
+  "about_url": "https://github.com/tarck-bike/discourse-tarck-theme",
+  "authors": null,
+  "theme_version": "0.0.1",
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {},
+  "color_schemes": {
+    "Tarck®": {
+      "primary": "0f070b",
+      "secondary": "f9fcfc",
+      "tertiary": "04a894",
+      "quaternary": "1c9d8d",
+      "header_background": "00e1c5",
+      "header_primary": "f2fffd",
+      "highlight": "01a691",
+      "danger": "ff4343",
+      "success": "b8fcb4",
+      "love": "ff78ab"
+    },
+    "Simple Dark": {
+      "primary": "e2e4e7",
+      "secondary": "1a1c1d",
+      "tertiary": "ff508e",
+      "quaternary": "35b3e4",
+      "header_background": "111111",
+      "header_primary": "dddddd",
+      "highlight": "a87137",
+      "danger": "e45735",
+      "success": "1ca551",
+      "love": "fa6c8d"
+    }
+  },
+  "modifiers": {},
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }

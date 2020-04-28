@@ -1,0 +1,16 @@
+<script async src="https://www.googletagmanager.com/gtag/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", settings.google_tag_manager_code);
+
+  var meta = document.createElement('meta');
+  meta.httpEquiv = settings.google_site_verification_selector;
+  meta.content = settings.google_site_verification_value;
+  document.getElementsByTagName('head')[0].appendChild(meta);
+</script>

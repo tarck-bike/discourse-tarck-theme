@@ -1,0 +1,15 @@
+google_tag_manager_code:
+  type: string
+  default: ""
+  description:
+    en: "Google Tag Manager key"
+google_site_verification_value:
+  type: string
+  default: ""
+  description:
+    en: "GWT Site Verification string (https://support.google.com/webmasters/answer/9008080?hl=en)"
+google_site_verification_selector:
+  type: string
+  default: "google-site-verification"
+  description:
+    en: "GWT Site Verification httpEquiv property of the meta tag"

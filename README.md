@@ -1,4 +1,3 @@
-## Sam's simple discourse theme
+## This is a fork of Sam's simple discourse theme for tarck.cc
 
 More info at: https://meta.discourse.org/t/sams-personal-minimal-topic-list-design/23552?u=sam
-

@@ -1,6 +1,6 @@
 <script type='text/x-handlebars' data-template-name='list/topic-list-item.raw'>
 
-{{#if bulkSelectEnabled}}
+  {{#if bulkSelectEnabled}}
 <td class='star'>
   <input type='checkbox' class='bulk-select'>
 </td>
@@ -70,23 +70,4 @@
   {{/if}}
   {{raw "topic-list-header-column" sortable='true' number='true' order='posts' forceName=(theme-i18n 'replies') }}
   {{raw "topic-list-header-column" sortable='true' order='activity' forceName=(theme-i18n 'last_post')}}
-</script>
-
-<script>
-
-(function(){
-
-var TopicListItemView = require('discourse/components/topic-list-item').default;
-
-
-TopicListItemView.reopen({
-    showCategory: function(){
-        return !this.get('controller.hideCategory') &&
-                this.get('topic.creator') &&
-                this.get('topic.category.name') !== 'uncategorized';
-    }.property()
-});
-
-})();
-
 </script>
